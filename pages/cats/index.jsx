@@ -18,7 +18,7 @@ export default function Cats() {
         <div>
             <h1> cats page</h1>
 
-            <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+            <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 {cats.map((cat, index) => (
                     <div className="col" key={index}>
                         <Card  {...cat} />
