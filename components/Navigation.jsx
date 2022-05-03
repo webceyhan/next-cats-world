@@ -1,10 +1,12 @@
+import Link from 'next/link';
+
 export const Navigation = () => {
     return (
         <nav className="navbar navbar-expand navbar-light bg-light">
             <div className="container">
-                <a className="navbar-brand" href="/">
-                    Navbar
-                </a>
+                <Link href="/">
+                    <a className="navbar-brand">Navbar</a>
+                </Link>
                 <button
                     className="navbar-toggler"
                     type="button"
@@ -16,14 +18,14 @@ export const Navigation = () => {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link" href="/">
-                                Home
-                            </a>
+                            <Link href="/">
+                                <a className="nav-link">Home</a>
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/cats">
-                                Cats
-                            </a>
+                            <Link href="/cats">
+                                <a className="nav-link">Cats</a>
+                            </Link>
                         </li>
                     </ul>
                 </div>
