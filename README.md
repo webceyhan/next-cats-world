@@ -81,6 +81,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 -   [Next.js](https://nextjs.org/)
 -   [React](https://reactjs.org/)
 -   [Bootstrap](https://getbootstrap.com/)
--   [Firebase](https://firebase.google.com/)
 -   [Vercel](https://vercel.com/)
 -   [Next.js Crash Course](https://www.youtube.com/watch?v=6HTs8HtZMt0&t=1297s)
