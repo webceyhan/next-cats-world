@@ -18,9 +18,13 @@ export default function Cats() {
         <div>
             <h1> cats page</h1>
 
-            {cats.map((cat, index) => (
-                <Card key={index} {...cat} />
-            ))}
+            <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                {cats.map((cat, index) => (
+                    <div className="col" key={index}>
+                        <Card  {...cat} />
+                    </div>
+                ))}
+            </div>
         </div>
     );
 }
