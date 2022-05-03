@@ -1,3 +1,4 @@
+import { Jumbotron } from '../components/Jumbotron';
 import { Navigation } from '../components/Navigation';
 
 export default function Home() {
@@ -5,7 +6,7 @@ export default function Home() {
         <>
             <Navigation />
             <main className="container py-4">
-                <h1 className="display-4">home page</h1>
+                <Jumbotron />
             </main>
         </>
     );
