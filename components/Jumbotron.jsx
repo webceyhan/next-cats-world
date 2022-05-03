@@ -1,15 +1,14 @@
 export const Jumbotron = () => {
     return (
         <div className="bg-light p-5">
-            <h1 className="display-5 fw-bold">Custom jumbotron</h1>
-            <p className="col-md-8 fs-4">
-                Using a series of utilities, you can create this jumbotron, just
-                like the one in previous versions of Bootstrap. Check out the
-                examples below for how you can remix and restyle it to your
-                liking.
+            <h1 className="display-5 fw-bold">Cats World</h1>
+
+            <p className="lead fs-4 mb-4">
+                Find your best friend today. Adopt a wonder cat!
             </p>
+
             <button className="btn btn-primary btn-lg" type="button">
-                Example button
+                Start looking
             </button>
         </div>
     );
