@@ -37,7 +37,7 @@ export default function Cat() {
                     />
                 </div>
 
-                <div className="col-12 col-md-6">
+                <div className="col-12 col-md-6 bg-light bg-opacity-50 p-4">
                     <h1>{cat.name}</h1>
                     <p className="lead mb-1">{cat.phone}</p>
                     <p className="lead mb-4">{cat.email}</p>
