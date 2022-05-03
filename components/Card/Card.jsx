@@ -10,7 +10,7 @@ export default function Card({ name, phone, email, image, id }) {
 
     return (
         <div
-            className={`${styles.card} text-center shadow`}
+            className={`${styles.card} bg-light text-center shadow`}
             onClick={handleClick}
         >
             <div className={styles['card-header']}>
