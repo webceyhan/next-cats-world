@@ -23,9 +23,17 @@ export default function Cat() {
     }
 
     return (
-        <div>
-            <h1> Cat Page</h1>
-            <Card {...cat} />
+        <div className="row g-4">
+            <div className="col-12 col-md-6">
+                <img src={cat.image.url} alt={cat.image.alt} className="img-fluid"/>
+            </div>
+
+            <div className="col-12 col-md-6">
+                <h1>{cat.name}</h1>
+                <p className='lead mb-1'>{cat.phone}</p>
+                <p className='lead mb-4'>{cat.email}</p>
+                <p>{cat.description}</p>
+            </div>
         </div>
     );
 }
