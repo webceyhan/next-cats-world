@@ -16,12 +16,12 @@ export default function Cats() {
 
     return (
         <div>
-            <h1> cats page</h1>
+            <h1 className="display-4">Our Cats</h1>
 
             <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 {cats.map((cat, index) => (
                     <div className="col" key={index}>
-                        <Card  {...cat} />
+                        <Card {...cat} />
                     </div>
                 ))}
             </div>
