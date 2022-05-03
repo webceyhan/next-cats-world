@@ -3,11 +3,11 @@ import styles from './Card.module.css';
 export default function Card({ name, phone, email, image, id }) {
     return (
         <div className={styles.card}>
-            <div className={styles.cardHeader}>
+            <div className={styles['card-header']}>
                 <img
                     src={image.url}
                     alt={image.alt}
-                    className={styles.cardImg}
+                    className={styles['card-img']}
                 />
             </div>
             <div>
