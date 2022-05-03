@@ -5,7 +5,7 @@ export const Navigation = () => {
         <nav className="navbar navbar-expand navbar-light bg-light">
             <div className="container">
                 <Link href="/">
-                    <a className="navbar-brand">Navbar</a>
+                    <a className="navbar-brand">CatsWorld</a>
                 </Link>
                 <button
                     className="navbar-toggler"
@@ -24,7 +24,7 @@ export const Navigation = () => {
                         </li>
                         <li className="nav-item">
                             <Link href="/cats">
-                                <a className="nav-link">Cats</a>
+                                <a className="nav-link">Our Cats</a>
                             </Link>
                         </li>
                     </ul>
